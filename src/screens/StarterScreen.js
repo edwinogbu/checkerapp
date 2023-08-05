@@ -147,10 +147,10 @@ const formattedDate = `${month} ${year} ${day}`;
   return (
     <SafeAreaView style={styles.container}>
                 <Header
-        centerComponent={{ text: 'Register/Login', style: { color: '#fff', fontSize: 15, fontWeight: 'bold' } }}
+        centerComponent={{ text: 'B. S. U Result', style: { color: '#fff', fontSize: 15, fontWeight: 'bold' } }}
         leftComponent={
           <TouchableOpacity onPress={() => navigation.goBack()} style={{ fontWeight: 'bold', fontSize: 22 }}>
-            <Text style={{ color: '#fff', fontSize: 15, fontWeight: 'bold' }}>Welcome</Text>
+            <Text style={{ color: '#fff', fontSize: 15, fontWeight: 'bold' }}></Text>
           </TouchableOpacity>
         }
         rightComponent={
@@ -371,7 +371,7 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     marginVertical: 12,
     marginHorizontal: 10,
-    borderColor: '#FFFF00',
+    borderColor: '#FFF',
     borderWidth: 5,
   },
 });
