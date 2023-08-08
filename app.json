@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.blessedcoder40.bsuappresult"
     },
     "web": {
       "favicon": "./assets/favicon.png"
